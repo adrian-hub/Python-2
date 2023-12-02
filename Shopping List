@@ -1,0 +1,10 @@
+colors = ["Blue", "White", "Red", "Black"]
+print(colors)
+del colors[3]
+print(colors)
+del colors[2]
+print(colors)
+del colors[1]
+print(colors)
+del colors[0]
+print(colors)
