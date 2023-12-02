@@ -1,0 +1,11 @@
+import datetime
+
+
+def clock1():
+    now = datetime.datetime.today()
+    print("hour: ", now.hour)
+    print("minute: ", now.minute)
+    print("second: ", now.second)
+
+
+clock1()
