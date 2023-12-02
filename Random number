@@ -1,0 +1,9 @@
+import random
+
+number = input("Enter a number between 1 - 10 ==> ")
+rand = random.randint(1, 10)
+
+if number == rand:
+    print("You picked the right number")
+else:
+    print("The number was", rand)
