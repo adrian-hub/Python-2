@@ -1,0 +1,7 @@
+user = {'name': 'David', 'age': 18, 'eye color': 'blue'}
+print(user)
+user['age'] = 24
+print(user)
+user['name'] = 'Adrian'
+user['age'] = 34
+print(user)
