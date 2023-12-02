@@ -1,0 +1,18 @@
+import random
+
+# variables and inputs (global)
+num = 0
+name = ""
+dict1 = ["John", "Chris", "Leonard", "Julian"]
+
+
+# functions
+def main():
+    num1 = random.randrange(0, 4)
+    print(num1)
+    name1 = dict1[num1]
+    print(name1)
+
+
+if __name__ == '__main__':
+    main()
